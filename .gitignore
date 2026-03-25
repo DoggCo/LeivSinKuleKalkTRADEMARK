@@ -16,6 +16,15 @@
 # Mono auto generated files
 mono_crash.*
 
+#magnus
+arial.ttf
+comic.tff
+cppProrperties.json
+ez4encecalc.sln
+ez4encecalc.vcxproj
+ez4encecalc.vcxproj.filters
+kalk.ttf
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
