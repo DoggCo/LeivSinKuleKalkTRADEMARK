@@ -220,6 +220,9 @@ std::string calculate(std::string kalkInput, std::vector<int> allNumbers, std::v
 				allNumbers[i] *= allNumbers[i + 1];
 			}
 			else if (operators[i] == '/') {
+				while (allNumbers[i] /= allNumbers[i + 1] == 0) {
+					return "retard";
+				}
 				allNumbers[i] /= allNumbers[i + 1];
 			}
 			allNumbers.erase(allNumbers.begin() + i + 1);
