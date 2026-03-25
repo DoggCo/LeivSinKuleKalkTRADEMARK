@@ -6,7 +6,7 @@
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode({ 1200, 600 }), "kalkulerer", sf::Style::Titlebar | sf::Style::Close);
-	//fataahh
+	//sondre er en fataahh
 	float buttonSize = window.getSize().x / 10;
 	float buttonHeight = window.getSize().y / 10;
 	float buttonMargin = 3;
